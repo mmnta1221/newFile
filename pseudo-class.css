@@ -1,0 +1,41 @@
+
+.ready{
+    background-color: rgb(73, 164, 164);
+}
+.ready:hover{
+background-color: rgb(42, 138, 165);
+color: aliceblue;
+}
+input:focus{
+    border: 2px solid rgb(101, 195, 226);
+}
+.list-element:first-child{
+    color: rgb(126, 0, 0);
+}
+.list-element:first-child:hover{
+    font-weight: bold;
+}
+
+.list-element:last-child{
+    font-weight: bold;
+}
+.list-element:last-child:focus{
+    font-weight: lighter;
+}
+.element:nth-child(odd){
+    background-color: rgb(185, 250, 246);
+}
+.element:nth-child(even){
+    background-color: rgb(42, 139, 145);
+}
+a:hover{
+    color:red;
+}
+ol{
+    width: 70px;
+    height: 80px;
+    font-family: 'Century Gothic';
+}
+.element:last-child:focus{
+background-color: rgb(169, 181, 191);
+}
