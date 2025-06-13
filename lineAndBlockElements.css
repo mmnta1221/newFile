@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Century Gothic';
+    justify-items: center;
+}
+img{
+    margin-left: 150px;
+    display: block; /*из строчного в блочный*/
+}
+h1{
+    display: inline; /*из блочного в строчный*/
+}
+p{
+    display: inline;
+}
+a{
+    margin-left: 20px;
+    display: block;
+}
+div{
+    display: block;
+    margin-top: 10px;
+    padding-left: 10px;
+}
